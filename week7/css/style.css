@@ -1,0 +1,98 @@
+
+h1 {
+  color:#F8FAB4;
+  font-family: 'nexa';
+  font-size: xx-large;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body{
+  background: linear-gradient(50deg, #2C1810, #B07A56, #2C1810);
+}
+
+img {
+  width: 100%;
+  height: 1000px;
+  border-radius: 10px;
+}
+
+fieldset{
+  border-style:solid;
+  color:beige;
+  border-color:#FAEAB1;
+  background-color:#B77466;
+  background: linear-gradient(50deg, #4E342E, #B07A56, #4E342E);
+  font-family:'Bebas Nueue';
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.kesamping {
+  display: flex;
+  align-items: center;
+  gap: 10px;        
+  flex-wrap: wrap;  
+  margin-bottom: 15px;
+}
+
+.kesamping label { 
+  width: 120px;   
+  color: 
+  #F4EBD0;
+  font-weight: bold;
+}
+
+.kesamping input, .kesamping select {
+  flex: 1; 
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  min-width: 10px;
+}
+
+legend{
+  color:#F8FAB4;
+  text-emphasis-color: inherit;  
+  text-transform: uppercase;
+  border-radius: 10px; 
+  font-family:'nexa';
+  font-size: x-large;
+}
+
+input:hover{
+  background-color:#F8FAB4;
+}
+
+input{
+  border-radius: 10px;
+}
+
+body{
+  background-size: cover;
+  background-position: center; 
+}
+
+#halo input{
+  float:right;
+  margin-right: 696px;
+  margin-top: 10px;
+  margin-bottom:20px;
+  background-color:#E2B59A;
+  
+  border-style: outset;
+  color:white;
+  font-family: 'nexa'   ;
+}
+
+#halo input:hover{
+  background-color:#B77466;
+  color:#662222;
+}
+
+
